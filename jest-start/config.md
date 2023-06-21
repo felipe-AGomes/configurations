@@ -41,13 +41,13 @@ module.exports = {
 npm install jest @types/jest ts-jest -D
 ```
 
-Configuração do arquivo jest.config
+#### Configuração do arquivo jest.config
 
 ```javascript
 /* eslint-disable no-undef */
 /** @type {import('ts-jest').JestConfigWithTsJest} */
 module.exports = {
-	preset: 'jest',
+	preset: 'ts-jest',
 	testEnvironment: 'node',
 };
 ```
