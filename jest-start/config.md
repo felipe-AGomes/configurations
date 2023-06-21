@@ -10,7 +10,13 @@ npm install jest ts-jest @types/jest @testing-library/jest-dom @testing-library/
 npm install identity-obj-proxy -D
 ```
 
-Configuração do arquivo jest.config
+#### Inicializar o Jest
+
+```bash
+npx ts-jest config:init
+```
+
+#### Configuração do arquivo jest.config
 
 ```javascript
 
