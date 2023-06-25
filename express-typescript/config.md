@@ -4,7 +4,7 @@
 
 ```bash
 npm install express
-npm install typescript @types/express -D
+npm install typescript ts-node-dev @types/express -D
 ```
 
 #### Iniciar o typescript
