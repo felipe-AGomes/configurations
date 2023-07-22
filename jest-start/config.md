@@ -51,3 +51,13 @@ module.exports = {
 	testEnvironment: 'node',
 };
 ```
+
+### Configuração do package.json ara ambos ambientes
+
+```json
+"scripts": {
+	"test": "jest"
+}
+```
+
+
