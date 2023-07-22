@@ -23,13 +23,13 @@ npx ts-jest config:init
 /* eslint-disable no-undef */
 /** @type {import('ts-jest').JestConfigWithTsJest} */
 module.exports = {
-	preset: 'ts-jest',
-	testEnvironment: 'jsdom',
+    preset: 'ts-jest',
+    testEnvironment: 'jsdom',
 
-	// Para importação dos estilos
-	moduleNameMapper: {
-		'\\.(css|less|sass|scss)$': 'identity-obj-proxy',
-	},
+    // Para importação dos estilos
+    moduleNameMapper: {
+        '\\.(css|less|sass|scss)$': 'identity-obj-proxy',
+    },
 };
 
 ```
@@ -47,8 +47,8 @@ npm install jest @types/jest ts-jest -D
 /* eslint-disable no-undef */
 /** @type {import('ts-jest').JestConfigWithTsJest} */
 module.exports = {
-	preset: 'ts-jest',
-	testEnvironment: 'node',
+    preset: 'ts-jest',
+    testEnvironment: 'node',
 };
 ```
 
@@ -56,7 +56,7 @@ module.exports = {
 
 ```json
 "scripts": {
-	"test": "jest"
+    "test": "jest"
 }
 ```
 
