@@ -4,7 +4,7 @@
 
 ```bash
 npm install express
-npm install typescript ts-node @types/express -D
+npm install typescript ts-node-dev @types/express -D
 ```
 
 #### Iniciar o typescript
@@ -17,6 +17,6 @@ npx tsc --init
 
 ```json
 "scripts": {
-    "dev": "ts-node src/server.ts"
+    "dev": "ts-node-dev src/server.ts"
 }
 ```
